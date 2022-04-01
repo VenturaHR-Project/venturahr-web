@@ -1,7 +1,8 @@
 import { FirebaseApp, initializeApp } from "firebase/app"
 import { getAuth, createUserWithEmailAndPassword, updatePassword, Auth, UserCredential } from "firebase/auth"
-import { FirebaseConstants } from "./FirebaseConstants"
+// import { FirebaseConstants } from "./FirebaseConstants"
 import { FirebaseAuthError } from "./FirebaseAuthError"
+import { FirebaseConstants } from "./FirebaseConstants"
 import { IFirebase } from "./IFirebase"
 
 export class Firebase implements IFirebase {
